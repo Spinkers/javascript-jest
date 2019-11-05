@@ -1,0 +1,21 @@
+{
+  "name": "javascript-jest",
+  "version": "1.0.0",
+  "description": "testes usando jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --logHeapUsage --coverage"
+  },
+  "keywords": [
+    "jest"
+  ],
+  "author": "Lucas Mourão Lopes",
+  "license": "MIT",
+  "devDependencies": {
+    "jest-cli": "^24.9.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageReporters": ["text"]
+  }
+}
