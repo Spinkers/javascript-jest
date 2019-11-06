@@ -5,4 +5,9 @@ describe('Somas', () => {
         const resultado = soma(2,3);
         expect(resultado).toEqual(5);
     });
+
+    test('A soma de uma string com um inteiro', () => {
+        const resultado = soma("teste", 3);
+        expect(resultado).toEqual(undefined);
+    });
 });
