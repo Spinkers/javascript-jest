@@ -10,6 +10,6 @@ describe('Filtro', () => {
     });
 
     test('Pesquisar um nome que não existe na base', () => {
-        expect(filtro(contatos, "xpto")).toBeUndefined()
+        expect(filtro(contatos, "Larissa")).toBeUndefined()
     });
 });
