@@ -6,6 +6,7 @@ describe('Somas', () => {
         expect(resultado).toEqual(5);
     });
 
+    //Este teste funciona não somente para string mas para qualquer coisa que não seja um número.
     test('A soma de uma string com um inteiro', () => {
         const resultado = soma("teste", 3);
         expect(resultado).toEqual(undefined);
