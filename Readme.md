@@ -9,7 +9,6 @@ Clone o projeto para a sua maquina.
 Você precisará ter instalado em sua maquina:
 * Node 8.10.0 ou superior.
 * Algum editor de texto (VsCode, Atom, Sublime).
-* Algum navegador moderno (Chrome, Opera, Firefox).
 * NPM.
 
 ### Instalação de dependências
