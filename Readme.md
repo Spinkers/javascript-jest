@@ -61,7 +61,7 @@ Nesse caso, definimos que o ambiente de desenvolvimento é node, isso porque o J
 Em seguida passamos como parametro **"text"**, o que altera o modo de exibição do relatório como dito anteriormente.
 
 Além de **"text"** também poderiamos utilizar: 
-* "text-sumary"
+* "text-summary"
 * "lcov"
 
 Atenção, caso vá utilizar **"lcov"**, o seu arquivo de configuração ficará assim:
